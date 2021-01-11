@@ -1,0 +1,427 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  font-size: 15px;
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+    line-height: 1.8;
+}
+
+header {
+  height: 160px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.header-left p {
+  font-size: 16px;
+}
+
+.header-right {
+  padding-top: 49px;
+  float: right;
+}
+
+.gnavi li {
+  list-style: none;
+  float: left;
+  padding: 0 15px;
+  position: relative;
+}
+
+.gnavi li a:hover {
+  color: #c49029;
+}
+
+.gnavi li:hover ul li {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gnavi li ul {
+  position: absolute;
+  top: 45px;
+  left: -5px;
+  height: 0px;
+  visibility: hidden;
+}
+
+.gnavi li li {
+  width: 170px;
+  border: 1px solid #f0f0f0;
+  padding: 10px 20px 0 20px;
+  box-shadow: 0 0 4px gray;
+  background-color: white;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.gnavi li a {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.fas {
+  margin-left: 10px;
+}
+
+.gnavi {
+  padding: 0 200px 0 0;
+}
+
+.right-navi {
+  display: inline-block;
+  margin-top: -5px;
+}
+
+.navi-text {
+  height: 30px;
+  width: 190px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.top-container {
+  width: 1035px;
+  margin: 0 auto;
+}
+
+.top-container p {
+  font-size: 27px;
+  color: #777777;
+  margin: 90px 0;
+}
+
+main {
+  width: 1040px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 120px;
+  padding-bottom: 120px;
+}
+
+.main-container {
+  margin-bottom: 60px;
+}
+
+.container-day {
+  float: left;
+  margin-right: 220px;
+}
+
+.day {
+  color: #999999;
+}
+
+.container-text {
+  width: 700px;
+  display: inline-block;
+}
+
+.container-text h1 {
+  color: #111111;
+  font-size: 22px;
+  margin-top: -10px;
+
+}
+
+.container-text p {
+  color: #666666;
+  font-size: 17px;
+  padding-top: 20px;
+}
+
+.page {
+  list-style: none;
+  padding-left: 320px;
+  
+}
+
+.page li {
+  float: left;
+  font-size: 17px;
+  border: solid 1px #ddd;
+  display: inline-block;
+  padding: 6px 18px;
+  margin-left: 6px;
+}
+
+.page li a {
+  opacity: 0.7;
+}
+
+.page li a:hover {
+  opacity: 1;
+}
+
+.page .this {
+  background-color: #EEEEEE;
+}
+
+.under {
+  width: 1040px;
+  height: 410px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+
+.profile {
+  width: 227px;
+  float: left;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.profile .box {
+  display: inline-block;
+  padding: 20px 0 40px 20px;
+}
+
+.profile-name {
+  font-size: 19px;
+}
+
+.awaysome {
+
+}
+
+.fab {
+  width: 24px;
+  height: 24px;
+
+}
+
+.profile-text {
+  clear: left;
+  font-size: 17px;
+}
+
+.footer-right {
+  width: 192px;
+  height: 382px;
+  margin-left: 80px;
+  display: inline-block;
+  float: left;
+}
+
+.footer-right h1 {
+font-size: 14px;
+font-weight: 700;
+padding-bottom: 40px;
+}
+
+.footer-right p {
+  font-size: 15px;
+}
+
+.post {
+  width: 192px;
+  height: 382px;
+  display: inline-block;
+  margin-left: 45px;
+  float: left;
+}
+
+.post h1 {
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+
+.post a {
+  font-size: 17px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post a:hover {
+  color: #c49029;
+}
+
+.post p{
+  font-size: 15px;
+  color: #777777;
+  padding-bottom: 15px;
+}
+
+.category {
+  width: 192px;
+  height: 382px;
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.category h1 {
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+.category li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+.category a {
+  font-size: 17px;
+  border-bottom: 1px solid #ddd;
+}
+
+.category a:hover {
+  color: #c49029;
+}
+
+.search2 {
+  margin-top: 60px;
+  border: 1px solid #ddd;
+  font-size: 17px;
+  width: 193px;
+  height: 38px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 1040px;
+  margin-bottom: 60px;
+}
+
+.footer-sns {
+  float: left;
+}
+
+.footer-logo {
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+}
+
+.footer-logo span {
+  opacity: 0.7;
+  color: black;
+}
+
+.footer-logo span:hover {
+  opacity: 1;
+}
